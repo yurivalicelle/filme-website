@@ -127,11 +127,6 @@ movie_tile_content = '''
 
 
 def create_movie_tiles_content(movies):
-    """
-
-    :param movies:
-    :return:
-    """
     # The HTML content for this section of the page
     content = ''
     for movie in movies:
@@ -152,10 +147,6 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
-    """
-
-    :param movies:
-    """
     # Create or overwrite the output file
     output_file = open('fresh_tomatoes.html', 'w')
 
