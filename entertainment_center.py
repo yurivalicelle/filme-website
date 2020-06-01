@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
-"""This module is in charge of initializing the information of my favorite films and opens a web
-page.
+"""Movie entertainment center.
+
+This module is in charge of initializing the information of my favorite films and opens a web page.
 
 Here you can see relevant information about the films, such as their titles, posters and even see
 their trailers.
 
 """
+
 import media
 import fresh_tomatoes
 
